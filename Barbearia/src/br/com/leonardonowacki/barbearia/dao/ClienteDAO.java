@@ -52,7 +52,7 @@ public class ClienteDAO {
         }
     }
     
-    public List<Cliente> listarClientes() throws SQLException{
+    public List<Cliente> listarClientes() throws SQLException {
         List<Cliente> listaClientes = new ArrayList<>();
         try (
             PreparedStatement declaracao = conecta.prepareStatement(LISTAR_SQL);
@@ -73,7 +73,7 @@ public class ClienteDAO {
         }
     }
     
-    public ArrayList<Cliente> listar_nomeClientes() throws SQLException{
+    public ArrayList<Cliente> listar_nomeClientes() throws SQLException {
         ArrayList<Cliente> listaClientes = new ArrayList<>();
         try (
             PreparedStatement declaracao = conecta.prepareStatement(CLIENTE_SQL);

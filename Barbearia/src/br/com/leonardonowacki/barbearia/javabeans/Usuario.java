@@ -1,6 +1,5 @@
 package br.com.leonardonowacki.barbearia.javabeans;
 
-
 public class Usuario {
     
     private final long id;
@@ -95,5 +94,10 @@ public class Usuario {
 
     public String getSenha() {
         return senha;
+    }
+    
+    @Override
+    public String toString() {
+        return login + senha;        
     }
 }

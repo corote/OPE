@@ -1,4 +1,3 @@
-
 package br.com.leonardonowacki.barbearia.dao;
 
 import java.sql.Connection;

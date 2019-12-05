@@ -18,7 +18,7 @@ public class ServicoDAO {
             
     private final Connection conecta;
     
-    public ServicoDAO() throws SQLException{
+    public ServicoDAO() throws SQLException {
         this.conecta = Conexao.conectar();
     }
     
@@ -70,7 +70,7 @@ public class ServicoDAO {
                 PreparedStatement declaracao = conecta.prepareStatement(SERVICO_SQL);
                 ResultSet resultado = declaracao.executeQuery();
             ) {
-            while(resultado.next()){
+            while(resultado.next()) {
                 Servico servico = new Servico(
                     resultado.getString("descricao"));
 

@@ -1,4 +1,3 @@
-
 package br.com.leonardonowacki.barbearia.view;
 
 import br.com.leonardonowacki.barbearia.dao.ConnectionException;

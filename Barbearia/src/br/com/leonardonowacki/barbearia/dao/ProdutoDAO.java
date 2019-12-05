@@ -17,7 +17,7 @@ public class ProdutoDAO {
             
     private final Connection conecta;
     
-    public ProdutoDAO() throws SQLException{
+    public ProdutoDAO() throws SQLException {
         this.conecta = Conexao.conectar();
     }
     

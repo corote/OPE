@@ -18,7 +18,7 @@ public class UsuarioDAO {
              
     private final Connection conecta;
     
-    public UsuarioDAO() throws SQLException{
+    public UsuarioDAO() throws SQLException {
         this.conecta = Conexao.conectar();
     }
     

@@ -1,3 +1,4 @@
+
 package br.com.leonardonowacki.barbearia.controller;
 
 import br.com.leonardonowacki.barbearia.dao.ConnectionException;

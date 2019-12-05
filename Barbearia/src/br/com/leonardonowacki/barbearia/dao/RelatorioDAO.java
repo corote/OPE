@@ -43,7 +43,7 @@ public class RelatorioDAO {
         }
     }
     
-    public List<Relatorio> listarRelatorio() throws SQLException{
+    public List<Relatorio> listarRelatorio() throws SQLException {
         List<Relatorio> relatorio = new ArrayList<>();
         try (
             PreparedStatement declaracao = conecta.prepareStatement(LISTAR_SQL);

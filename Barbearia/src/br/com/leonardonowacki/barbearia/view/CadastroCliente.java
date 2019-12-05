@@ -227,7 +227,9 @@ public class CadastroCliente extends javax.swing.JFrame {
     private void Botao_CadastrarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Botao_CadastrarClienteActionPerformed
         if (
             "".equals(Text_NomeCliente.getText()) ||
-            "".equals(Text_CelularCliente.getText())
+            "".equals(Text_CelularCliente.getText()) ||
+            "".equals(Text_EmailCliente.getText()) ||
+            "".equals(Text_EnderecoCliente.getText())
         ) {
             JOptionPane.showMessageDialog(null, "Preencha todos os campos para cadastrar.");
             return;
